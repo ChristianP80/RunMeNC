@@ -13,6 +13,7 @@
 		5304D0562019CA6C001B398C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5304D0552019CA6C001B398C /* Assets.xcassets */; };
 		5304D0592019CA6C001B398C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5304D0572019CA6C001B398C /* LaunchScreen.storyboard */; };
 		5304D05C2019CA6C001B398C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5304D05B2019CA6C001B398C /* main.m */; };
+		7212FC4F2019D6CF00DD8FD8 /* Formulas.m in Sources */ = {isa = PBXBuildFile; fileRef = 7212FC4E2019D6CF00DD8FD8 /* Formulas.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		5304D0582019CA6C001B398C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5304D05A2019CA6C001B398C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5304D05B2019CA6C001B398C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7212FC4D2019D6CF00DD8FD8 /* Formulas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Formulas.h; sourceTree = "<group>"; };
+		7212FC4E2019D6CF00DD8FD8 /* Formulas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Formulas.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				5304D04D2019CA6C001B398C /* AppDelegate.m */,
 				5304D04F2019CA6C001B398C /* ViewController.h */,
 				5304D0502019CA6C001B398C /* ViewController.m */,
+				7212FC4D2019D6CF00DD8FD8 /* Formulas.h */,
+				7212FC4E2019D6CF00DD8FD8 /* Formulas.m */,
 				5304D0522019CA6C001B398C /* Main.storyboard */,
 				5304D0552019CA6C001B398C /* Assets.xcassets */,
 				5304D0572019CA6C001B398C /* LaunchScreen.storyboard */,
@@ -144,6 +149,7 @@
 			files = (
 				5304D0512019CA6C001B398C /* ViewController.m in Sources */,
 				5304D05C2019CA6C001B398C /* main.m in Sources */,
+				7212FC4F2019D6CF00DD8FD8 /* Formulas.m in Sources */,
 				5304D04E2019CA6C001B398C /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
