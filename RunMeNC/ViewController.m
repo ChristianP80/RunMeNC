@@ -9,6 +9,9 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UITextField *hours;
+@property (weak, nonatomic) IBOutlet UITextField *minutes;
+@property (weak, nonatomic) IBOutlet UITextField *distance;
 
 @end
 
