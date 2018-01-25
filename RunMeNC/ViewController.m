@@ -24,7 +24,6 @@
 
 - (IBAction)calculate:(id)sender {
 
-    
 //    NSString *distanceRunned = self.distance.text;
     
     double totalHours = [Formulas convertTime:self.hours.text.doubleValue minutes:self.minutes.text.doubleValue];
@@ -33,7 +32,7 @@
     
     double endResult = [Formulas avgSpeed:self.distance.text.doubleValue time:totalHours];
     
-    NSString *endRes = [NSString stringWithFormat:@"%.02f", endResult];
+    NSString *endRes = [NSString stringWithFormat:@"You ran %@ km on %.02f and your avarage speed was %.02f km/h", self.distance.text, totalHours, endResult];
     
     self.speed.text = [NSString stringWithFormat:@"%.02f", endResult];
     
