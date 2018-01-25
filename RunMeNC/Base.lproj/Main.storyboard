@@ -82,9 +82,6 @@
                                 <state key="normal" title="GO">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
-                                <connections>
-                                    <action selector="calculate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5Pz-Zz-jrx"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -94,7 +91,6 @@
                         <outlet property="distance" destination="I5U-8x-cS9" id="Wb4-KF-nOS"/>
                         <outlet property="hours" destination="r3D-v5-umh" id="OFR-p2-04w"/>
                         <outlet property="minutes" destination="8dc-vF-fRg" id="KzT-fG-9vN"/>
-                        <outlet property="speed" destination="exQ-kK-8ez" id="tjJ-Uq-eWf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
