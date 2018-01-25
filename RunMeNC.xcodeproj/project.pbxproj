@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D5033702019E70E00DE12E6 /* ResultsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D50336F2019E70E00DE12E6 /* ResultsTableViewController.m */; };
 		5304D04E2019CA6C001B398C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5304D04D2019CA6C001B398C /* AppDelegate.m */; };
 		5304D0512019CA6C001B398C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5304D0502019CA6C001B398C /* ViewController.m */; };
 		5304D0542019CA6C001B398C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5304D0522019CA6C001B398C /* Main.storyboard */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D50336E2019E70E00DE12E6 /* ResultsTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResultsTableViewController.h; sourceTree = "<group>"; };
+		3D50336F2019E70E00DE12E6 /* ResultsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResultsTableViewController.m; sourceTree = "<group>"; };
 		5304D0492019CA6C001B398C /* RunMeNC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RunMeNC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5304D04C2019CA6C001B398C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5304D04D2019CA6C001B398C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -68,6 +71,8 @@
 				7212FC4D2019D6CF00DD8FD8 /* Formulas.h */,
 				7212FC4E2019D6CF00DD8FD8 /* Formulas.m */,
 				5304D0522019CA6C001B398C /* Main.storyboard */,
+				3D50336E2019E70E00DE12E6 /* ResultsTableViewController.h */,
+				3D50336F2019E70E00DE12E6 /* ResultsTableViewController.m */,
 				5304D0552019CA6C001B398C /* Assets.xcassets */,
 				5304D0572019CA6C001B398C /* LaunchScreen.storyboard */,
 				5304D05A2019CA6C001B398C /* Info.plist */,
@@ -151,6 +156,7 @@
 				5304D05C2019CA6C001B398C /* main.m in Sources */,
 				7212FC4F2019D6CF00DD8FD8 /* Formulas.m in Sources */,
 				5304D04E2019CA6C001B398C /* AppDelegate.m in Sources */,
+				3D5033702019E70E00DE12E6 /* ResultsTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
